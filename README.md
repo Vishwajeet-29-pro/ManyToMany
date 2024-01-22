@@ -47,53 +47,72 @@ The goal of this project is to showcase a Spring Boot application with Many-to-M
 3. **Access the API:**
 The application will be accessible at http://localhost:8080.
 
+## API Endpoints
+
 Album Controller
+
 Create Album:
 
 POST /api/1.0/music/album/
+
 Get All Albums:
 
 GET /api/1.0/music/album/
+
 Get Album by ID:
 
 GET /api/1.0/music/album/{id}
+
 Update Album by ID:
 
 PUT /api/1.0/music/album/updateAlbumDetailsById/{id}
+
 Delete Album by ID:
 
 DELETE /api/1.0/music/album/deleteAlbumDetailsById/{id}
+
 Add Album to Artist:
 
 POST /api/1.0/music/album/{albumId}/addArtist/{artistId}
+
 Remove Album from Artist:
 
 DELETE /api/1.0/music/album/{albumId}/removeArtist/{artistId}
+
 Get All Albums by Artist ID:
 
 GET /api/1.0/music/album/getAllAlbumByArtistId/{id}
+
 Artist Controller
+
 Create Artist:
 
 POST /api/1.0/music/artist/
+
 Get All Artists:
 
 GET /api/1.0/music/artist/
+
 Get Artist by ID:
 
 GET /api/1.0/music/artist/getById/{id}
+
 Update Artist by ID:
 
 PUT /api/1.0/music/artist/updateArtistById/{id}
+
 Delete Artist by ID:
 
 DELETE /api/1.0/music/artist/deleteArtistById/{id}
+
 Add Artist to Album:
 
 POST /api/1.0/music/artist/{artistId}/addAlbum/{albumId}
+
 Remove Album from Artist:
 
 DELETE /api/1.0/music/artist/{artistId}/removeAlbum/{albumId}
+
 Get All Artists by Album ID:
 
 GET /api/1.0/music/artist/getAllAlbumsByArtistId/{id}
