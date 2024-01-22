@@ -30,7 +30,7 @@ The goal of this project is to showcase a Spring Boot application with Many-to-M
 - Spring Boot
 - Spring Data JPA
 - RESTful API
-- H2 Database (for demonstration purposes; can be replaced with a production database)
+- MySQL Database
 - Maven
 
 ## Getting Started
