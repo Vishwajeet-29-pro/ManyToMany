@@ -4,8 +4,6 @@ import com.manytomany.musiclibrary.artist.Artist;
 import com.manytomany.musiclibrary.artist.ArtistDto;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-
 @Component
 public class EntityMapperImpl implements EntityMapper {
     @Override
